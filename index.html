@@ -1,145 +1,213 @@
 <!DOCTYPE html>
 <html>
-    
-<head>
+    <head>
     <title>Supakkul Designs</title>
     <link rel= "stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
-</head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
     <body>
-       <div class="overlay">
         <header>
             <nav>
-                <div class="row">
-                <ul class="main-nav-left">
-                    <li class="this-page"> <a href="#">WORK</a></li>
                 
-                </ul> 
-                <ul class="main-nav-right-home">
-                    <li> <a href="serene-supakkul-resume.pdf"target="_blank">RESUME</a></li>
-                    <li> <a href="about.html">ABOUT</a></li>
+                <div class="topnav" id="home">
+                <div class="col-12">
+                    <!-- Top navigation -->
+                    
+                        
+                        <!-- centered -->
+                        <div class= "topnav-centered">
+                        <a href= "#"><img src="icons/logo-sm.svg" style="width: 100px"></a>
+                        </div>
+                        
+                        <!-- left-aligned links-->
+                        <div class= "topnav-left">
+                        <a href= "#work-page">WORK</a>
+                         <a href= "#about-page">ABOUT</a>
+                        </div>
+                        
+                        
+                        <!-- right-aligned links -->
+                        <div class= "topnav-right">
+                        <a href= "#contact-page">CONTACT</a>
+                        <a href= "serene-supakkul-resume.pdf"target="_blank">RESUME</a>
+                        </div>
+                    
                     
                 
-                </ul>
+                    </div>
+                    </div>
+                <div class="topnav2">
+                <div class="col-12">
+                    <!-- Top navigation -->
+                    
+                        <div id="navbar">
+                        <!-- centered -->
+                        <div class= "topnav-centered" >
+                        <a href= "#home"><img src="icons/dark%20logo.png" style="width: 100px"></a>
+                        </div>
+                        
+                        <!-- left-aligned links-->
+                        <div class= "topnav-left">
+                        <a href= "#work-page" >WORK</a>
+                         <a href= "#about-page">ABOUT</a>
+                        </div>
+                        
+                        
+                        <!-- right-aligned links -->
+                        <div class= "topnav-right">
+                        <a href= "#contact-page">CONTACT</a>
+                        <a href= "#">RESUME</a>
+                        </div>
+                    
+                    
                 </div>
-        
+                    </div>
+                    </div>
+                    
             </nav>
-        
         </header>
-        <div class="land">
-                <img src="icons/SVG/Asset%201.svg" class="logo">
-               <h1 class="land">SERENE <span class= "in-text">SUPAKKUL</span></h1>
-            
-                <h2 class="land"> UI/UX Design <span class ="line"> | </span>Graphic Design</h2>
-            
-            <p class="land">My love for making puns is nothing compared to my love for making “Supa-Kul” <span class="in-text">digital designs</span> and <span class="in-text">user-experiences</span>. </p>
-            
-            
-            <div class= "arrow"><a href="#projects-selection"><i class="fas fa-chevron-down" style="color: #FFF;"></i></a></div>
-            
+        <script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-500px";
+  }
+}
+</script>
         
-        
-        </div>
-         
-        <a id="projects-selection">
-           <ul class= "work1">
-            <li class="work1"> <a href="google2020.html">
-                <div class="container-work"><img src= images/mentee-cover.png alt= "picture of Menty screens" class= "w-img" style="object-position: 55%;">
-                <div class="overlay-w">
-                    <div class="text-work">Google <br>Design Challenge 2020</div>
-                    </div>
-                     
-                    </div>
-                
-                </a></li>
-                
-        <li class="work1"> <a href= "triet.html">
-                <div class="container-work" ><img src= images/triet-portscreen.png alt= "picture of Triet screens" class= "w-img" style="object-position: 55%;">
-                <div class="overlay-w">
-                    <div class="text-work">Triet Health App <br>UI/UX Design</div>
-                    </div>
-                     
-                    </div>
-                
-                </a></li>
-            
-        
-        </ul>
+        <div class="intro" class= "col-6" >
            
-         <!--  
-            <ul class= "work-mid">
-            <li class="work-mid"> <a href="triet.html">
-                <div class="container-work"><img src= images/triet-portscreen.png alt= "picture of StudySmart screens" class= "w-img" style="object-position: 55%;">
-                <div class="overlay-w">
-                    <div class="text-work">Triet Health App <br>UI/UX Design</div>
-                    </div>
-                     
-                    </div>
-                
-                </a></li>
-                
-        <li class="work-mid"> <a href= "devx.html">
-                <div class="container-work" ><img src= images/ss-port-cover.png alt= "picture of StudySmart screens" class= "w-img" style="object-position: 55%;">
-                <div class="overlay-w">
-                    <div class="text-work">StudySmart App <br>UI/UX Design</div>
-                    </div>
-                     
-                    </div>
-                
-                </a></li>
+            <h2 class="greet" >Hello! I'm</h2> 
             
-        
-        </ul>
-          -->
+           
+            <h1 class="greet" >SERENE SUPAKKUL </h1>
+            <h3 class="greet">UI/UX Designer</h3>
             
+            
+            
+            <p class="greet" style="width: 55%">My love for puns is nothing compared to my love for creating “Supakkul” digital designs and user-experiences </p>
+        </div>
         
-           <ul class= "work2">
-            <li class="work2"> <a href="seoula.html">
-                <div class="container-work"><img src= images/seouladisplayArtboard%207_1.png alt= "picture of seoula webpage" class= "w-img" style="object-position: 55%;">
+        <div class='icon-scroll'></div>
+        
+        
+        <a id="work-page">
+        <div class="work">
+            
+            <h1>• <span style="color: #4b4b4b;">WORK</span> •</h1>
+            
+                
+                <ul class= "work1" >
+                <li class="work1"> <a href="studyb.html">
+                <div class="container-work" ><img src= "images/covers/studyb-cover.png" alt= "picture of Study screens" class= "w-img" >
                 <div class="overlay-w">
-                    <div class="text-work">SEOULA <br>Web Design</div>
+                    <div class="text-work">StudyB<br><span style="font-weight: 200; font-size: calc(12px + 1vw);">UCLA DevX: UI/UX Design</span></div>
                     </div>
                      
                     </div>
                 
                 </a></li>
-               
-                 <li class="work2"> <a href="devx.html">
-                <div class="container-work" ><img src= images/ss-port-cover.png alt= "picture of StudySmart screens" class= "w-img" style="object-position: 55%;">
+                
+             
+            <li class="work1"> <a href="google2020.html">
+                <div class="container-work" ><img src= "images/covers/menty-cover.png" alt= "picture of Menty screens" class= "w-img" >
                 <div class="overlay-w">
-                    <div class="text-work">StudySmart App <br>UI/UX Design</div>
+                    <div class="text-work">Menty<br><span style="font-weight: 200; font-size: calc(12px + 1vw);">Google UX Design Challenge 2020</span></div>
                     </div>
                      
                     </div>
                 
                 </a></li>
-               
-               <!--GRAPHICS
-        <li class="work2"> <a href="graphic.html">
-                <div class="container-work" ><img src= images/graphicsdisplayArtboard%205.png alt= "picture of graphics page" class= "w-img" style="object-position: 60%; transform: scale(1.5);">
+                 
+                 <li class="work1"> <a href="triet.html">
+                <div class="container-work" ><img src= "images/covers/triet-cover%20copy.png" alt= "picture of Triet screens" class= "w-img" >
                 <div class="overlay-w">
-                    <div class="text-work">Graphics</div>
+                    <div class="text-work">Triet Health App <br><span style="font-weight: 200; font-size: calc(12px + 1vw);">UI/UX Design</span></div>
                     </div>
                      
                     </div>
                 
                 </a></li>
+                 
+              <!--
+                 <li class="work1"> <a href="google2020.html">
+                <div class="container-work" ><img src= "images/pink%20back.png" alt= "picture of Wazo screens" class= "w-img" >
+                <div class="overlay-w">
+                    <div class="text-work">Wazo Mental Health <br><span style="font-weight: 200; font-size: calc(12px + 1vw);">UI/UX Design Internship 2019</span></div>
+                    </div>
+                     
+                    </div>
+                
+                </a></li>
+                
+
 -->
+                 
             
         
         </ul>
-            
             </a>
         </div>
         
-       
         
-    
+        <div class= "about" >
+            <a id="about-page">
+            <h1>• <span style="color: #1d1d1d;">ABOUT</span> •</h1>
+            <img class="about-pic" src="images/me-landing.png">
+            
+                <p class="col-9 about-desc">Hihi! I’m Serene Supakkul, or as some would call me, Serene Supa-Cool 😎 I’m a UI/UX Designer studying Cognitive Science (+ programming specialization) at UCLA with an unhealthy and Supa-not-cool obsession with puns, as I’m sure UX-pected. Currently crafting user experiences at <a class="bio-link" href="https://corp.roblox.com/" target="_blank">Roblox</a> and Head of Media at <a class="bio-link" href="https://www.youtube.com/channel/UCE6g685IncRt58mAjX8NXMA" target="_blank">SEOULA</a> ✌️ 
+<br><br>
+Though I entered college as an Actuarial Math enthusiast, I soon came to realize the incessant spreadsheet data-analysis life was not for me. Creativity and human behavior, however, have always been topics of interest for me, and I’ve always found joy in expressing creativity-- whether it be through playing piano, playing flute, dancing, or simply singing in the shower. While becoming a pianist or professional shower-singer was never my forte (yay more puns!), I did discover a passion for expressing my creativity through design later on in college.
+
+<br><br><br>
+***I also kinda code! I designed this portfolio website and brought it to life myself with some HTML, CSS, and Javascript :)***
+ </p>
+          <img class="alive-gif" src="alive.gif">
+                
+                
+                <div class="skills">
+                    <h2>Design Skills</h2>
+                        <p>Prototyping • Wireframing • Mockup Design • User-testing • User-Interviews • Storyboarding  • Data Visualization • Statistical Analysis • Product Design • Graphic Design
+</p>
+                    <h2 style="margin-top: 4%;">Design Tools</h2>
+
+
+                         <p>Adobe Xd • Figma • Sketch • InVision • Adobe Illustrator • Adobe Photoshop 
+</p>
+                    <h2 style="margin-top: 4%;">Programming</h2>
+                            <p>HTML/HTML5 • CSS/CSS3 • Javascript • PHP
+</p>
+                
+                
+                </div>
+                
+                <a href="serene-supakkul-resume.pdf"target="_blank">
+                    <button type="button" class="button">Click for Resume</button> </a>
+                </a>
+        </div>
+        
+        
+                <div class="contact">
+            <a id="contact-page">
+            <h1>• <span style="color: #4b4b4b;">CONTACT</span> •</h1>
+                <div class="contact-icons">
+                
+                    <a href="mailto: serene.supakkul@gmail.com" target="_blank"><img class="contact-icon1" src="icons/email2.png"></a></li>
+                
+                <a href="https://www.linkedin.com/in/serene-sup" target="_blank"><img class="contact-icon2" src="icons/LI2.png"> </a></li>
+               
+                    
+                    </div>
+            </a>
+        </div>
+            
+            
+        
     </body>
-
-
-
+    
 </html>

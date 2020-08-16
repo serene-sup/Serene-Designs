@@ -315,7 +315,7 @@ ul.work1{
 }
 .about{
     background-color: #E4A2A2;
-    height: 2300px;
+   
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -375,6 +375,7 @@ ul.work1{
     height: auto;
     margin-top: 5%;
     margin-left: 36%;
+    margin-bottom: 5%;
     padding-bottom: 1.5%;
     padding-top: 1.5%;
     

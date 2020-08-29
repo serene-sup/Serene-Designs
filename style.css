@@ -238,6 +238,7 @@ ul.work1{
     display: inline-block;
     margin: 15px;
     text-align: center;
+    width: 100%; 
     
 }
 .w-img{
